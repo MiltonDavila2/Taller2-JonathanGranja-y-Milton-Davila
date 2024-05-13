@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.NewPage1"
+             Title="NewPage1">
+    <ScrollView>
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <BoxView Color="Chocolate"/>
+
+            <Label Text="Primera celda" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+            <BoxView Grid.Column="1" Color="Green"/>
+
+            <Label Grid.Column="1" Text="Segunda celda" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <BoxView Grid.Row="1" Color="Blue"/>
+
+            <Label Grid.Row="1" Text="Segunda celda" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+            <BoxView Grid.Column="1" Grid.Row="1" Color="HotPink"/>
+
+            <AbsoluteLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1" Grid.Row="1">
+                <Label Text="Absolute Layout"/>
+                <Button x:Name="CounterBtn" Text="Ir a StackLayout" SemanticProperties.Description="Hola" Clicked="OnCounterClickedAstackLayout"/>
+
+            </AbsoluteLayout>
+
+            
+
+
+
+
+
+
+        </Grid>
+
+        <Button x:Name="BotonAStack" ></Button>
+    </ScrollView>
+</ContentPage>
