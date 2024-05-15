@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.NewPage3"
+             Title="NewPage3">
+    <ScrollView>
+       
+            <FlexLayout Direction="Column" AlignItems="Center" HorizontalOptions="Center" VerticalOptions="Center" >
+                <Image Source="dotnet_bot.png" WidthRequest="200" HeightRequest="200">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCounterClickedAstackLayout"/>
+                </Image.GestureRecognizers>
+                </Image>
+                <Label Text="Elemento 1"/>
+                <Image Source="dotnet_bot.png" WidthRequest="200" HeightRequest="200">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnCounterClickedAstackLayout"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                 <Label Text="Elemento 2"/>
+                    <Image Source="dotnet_bot.png" WidthRequest="200" HeightRequest="200">
+                        <Image.GestureRecognizers>
+                             <TapGestureRecognizer Tapped="OnCounterClickedAstackLayout"/>
+                        </Image.GestureRecognizers>
+                 </Image>
+                 <Label Text="Elemento 3"/>
+                 <Image Source="dotnet_bot.png" WidthRequest="200" HeightRequest="200">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnCounterClickedAstackLayout"/>
+                     </Image.GestureRecognizers>
+                 </Image>
+                 <Label Text="Elemento 4"/>
+
+
+        </FlexLayout>
+                
+           
+        
+    </ScrollView>
+</ContentPage>

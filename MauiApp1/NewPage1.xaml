@@ -45,6 +45,6 @@
 
         </Grid>
 
-        <Button x:Name="BotonAStack" ></Button>
+       
     </ScrollView>
 </ContentPage>
