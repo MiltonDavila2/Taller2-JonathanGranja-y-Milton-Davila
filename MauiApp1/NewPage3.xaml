@@ -23,6 +23,7 @@
                              <TapGestureRecognizer Tapped="OnCounterClickedAstackLayout"/>
                         </Image.GestureRecognizers>
                  </Image>
+                
                  <Label Text="Elemento 3"/>
                  <Image Source="dotnet_bot.png" WidthRequest="200" HeightRequest="200">
                     <Image.GestureRecognizers>
